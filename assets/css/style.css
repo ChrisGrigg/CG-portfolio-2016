@@ -179,16 +179,27 @@ hr {
 	background-image: url('../img/demo-1-bg.jpg');
 }
 
-.main-title {
+.header-image {
 	position: absolute;
 	margin: 0;
 	padding: 0;
-	color: #f9f1e9;
-	text-align: center;
-	top: 40%;
+	/*text-align: center;*/
+	top: 23%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
+}
+
+.main-title {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    color: #f9f1e9;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
 }
 
 .main-tagline {
@@ -399,6 +410,25 @@ nm {
 .sponsor .col-sm-2 {
 	height: 80px;
 	line-height: 80px;
+}
+
+/* Testimonial section */
+#testimonial {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    min-height: 450px;
+    background: #2f2f2f;
+    color: white;
+}
+
+#testimonial p {
+    font-size: 16px;
+    color: #ccc;
+}
+
+#testimonial hr {
+    border: solid 1px #ccc;
+    width: 80px;
 }
 
 /* FOOTER */
