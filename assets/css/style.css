@@ -196,7 +196,7 @@ hr {
     padding: 0;
     color: #f9f1e9;
     text-align: center;
-    top: 45%;
+    top: 55%;
     left: 50%;
     -webkit-transform: translate3d(-50%, -50%, 0);
     transform: translate3d(-50%, -50%, 0);
@@ -208,7 +208,7 @@ hr {
 	padding: 0;
 	color: #f9f1e9;
 	text-align: center;
-	top: 60%;
+	top: 70%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
 	transform: translate3d(-50%,-50%,0);
